@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>SentinelX demo application</title>
+    <script src="/static/app.js"></script>
+  </head>
+  <body>
+    <h1>Demo application</h1>
+    <div id="output"></div>
+    <div id="messages"></div>
+
+    <script>
+      // Executable inline script that writes untrusted input into the page.
+      document.body.innerHTML = location.search;
+    </script>
+  </body>
+</html>
