@@ -1,0 +1,5 @@
+# Native window engine for the desktop shell. The website itself needs nothing
+# beyond the project's own requirements.lock, which bootstrap.py installs too.
+pywebview==6.2.1; sys_platform == "win32"
+pythonnet==3.0.5; sys_platform == "win32"
+pywebview==6.2.1; sys_platform != "win32"
