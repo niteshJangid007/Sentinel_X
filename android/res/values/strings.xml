@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SentinelX</string>
+    <string name="tagline">Security control center</string>
+    <string name="setup_title">Connect to your SentinelX</string>
+    <string name="setup_help">Enter the address shown by the desktop app.\nOn the same Wi-Fi use something like http://192.168.1.5:8000;\nfrom anywhere use the public https://…trycloudflare.com link.</string>
+    <string name="url_hint">http://192.168.1.5:8000</string>
+    <string name="connect">Connect</string>
+    <string name="change_server">Change server</string>
+    <string name="reload">Reload</string>
+</resources>
